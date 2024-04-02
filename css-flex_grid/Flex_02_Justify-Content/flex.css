@@ -1,0 +1,44 @@
+body{
+    background: #222;
+}
+.card{
+    margin: 2rem;
+    max-width: 16rem;
+    border-radius: 0.5rem;
+    --tw-bg-opacity:1;
+    background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+    padding: 2.25rem;
+}
+.card h1{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 700;
+    --tw-text-opacity:1;
+    color: rgba(37, 99, 235, var(--tw-text-opacity));
+}
+.card p{
+    margin-top: 1rem;
+}
+.liens{
+margin-top: 1rem;
+}
+.liens a{
+    text-decoration: none;
+    border-radius: 0.375rem;
+    --tw-bg-opacity:1;
+    background-color: rgba(191, 219, 254, var(--tw-bg-opacity));
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    --tw-text-opacity:1;
+    color: rgba(17, 24, 39, var(--tw-text-opacity));
+}
+.flex{
+    display: flex;
+}
+.justify-between{
+    justify-content: space-between;
+}

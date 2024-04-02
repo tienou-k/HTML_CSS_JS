@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex_quote</title>
+    <link rel="stylesheet" href="./flex_quote.Css">
+<style>
+    *,
+::before,
+::after{
+box-sizing: border-box;
+}
+html{
+    -moz-tab-size: 4;
+    tab-size: 4;
+}
+html{
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+body{
+    margin: 0;
+}
+.quote{
+    margin: 0.75rem;
+    border-radius: 0.5rem;
+    --tw-bg-opacity:1;
+    background-color: rgba(219, 234, 254, var(--tw-bg-opacity));
+    padding: 1.5rem;
+}
+.quote p{
+    margin-bottom: 0.25rem;
+    font-family: ui-serif, Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    --tw-text-opacity:1;
+    color: rgba(55, 65,81 var(--tw-text-opacity));
+}
+.quote span{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    --tw-text-opacity:1;
+    color: rgba(107, 114, 128, var(--tw-text-opacity));
+}
+.flex{
+    display: flex;
+    
+}
+
+</style>  
+</head>
+  <body>
+    <div>
+      <div class="quote">
+        <p>
+          “The success combination in business is: Do what you do better... and:
+          do more of what you do.”
+        </p>
+        <span>- David J. Schwartz</span>
+      </div>
+      <div class="quote">
+        <p>“Give out what you most want to come back.”</p>
+        <span>- Robin Sharma</span>
+      </div>
+      <div class="quote">
+        <p>
+          “You don't have to be great at something to start, but you have to
+          start to be great at something.”
+        </p>
+        <span>- Zig Ziglar</span>
+      </div>
+    </div>
+  </body>
+</html>
