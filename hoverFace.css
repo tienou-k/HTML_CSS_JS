@@ -1,0 +1,29 @@
+ div li::before{
+ content: "";
+  position: absolute;
+  top: 5px;
+  left: -25px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: 2px solid #f77409;
+  background: #fff;
+}
+li{
+    list-style-type: none;
+    color: #f77409;
+    
+}
+div li::after{
+      content: "";
+  position: absolute;
+  top: 14px;
+  left: -21px;
+  width: 2px;
+  height: 115px;
+  background: #f77409;
+}
+div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
