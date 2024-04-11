@@ -1,0 +1,51 @@
+
+.container{
+   grid-template:1fr, 1fr / 1fr, 1fr ;
+   gap: 50px;
+   display: flex;
+ }  
+.one{
+    height: 50vh;
+    width: 50vw;
+    background: red;
+    border: 3px solid black;
+    border-radius: 5px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    flex-basis: 200;
+}
+.two{
+    background: green;
+}
+.two:hover{
+    box-shadow: 2px 2px 5px #09dbf7;
+    height: 75vh;
+    transition: all 0.6s;
+
+}
+.three{
+    background: yellow;
+}
+.three:hover{
+    box-shadow: 2px 2px 5px #09dbf7;
+    height: 75vh;
+    transition: all 0.6s;
+
+}
+.four{
+    background: red;
+}
+.four:hover{
+    box-shadow: 2px 2px 5px #09dbf7;
+    height: 75vh;
+    transition: all 0.6s;
+
+}
+.btn{
+    color: white;
+    font-size: 16px;
+    background: gray;
+    letter-spacing: 5px;
+}
